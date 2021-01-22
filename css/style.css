@@ -1,0 +1,476 @@
+/* gloabal*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.containeer{
+    width: 1170px;
+    margin: auto;
+    color: white;
+
+
+}
+/* start heading */
+.main{
+    height: 500px;
+    background: url(../media/WhatsApp\ Image\ 2020-09-01\ at\ 8.42.32\ PM.jpeg) no-repeat;
+    background-size: 100% 100%;  
+}
+.main .containeer h1 {
+    font-size: 50px;
+color: white;
+width: 600px;
+height: auto;
+text-align: center;
+border: 0.1px solid white;
+position: relative;
+left: 250px;
+top: 150px;
+}
+
+.main .containeer h1 span{
+    color:rgb(255, 166, 0);
+}
+.main .containeer ul{
+    text-decoration: none;
+    position: absolute;
+    left:180px;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 10px   ;
+
+}
+.main .containeer ul li{
+    display: inline;
+    margin: 7px;
+}
+.main .containeer ul li:before{
+    content:"|" ;
+    color: rgb(255, 166, 0);
+padding: 10px;
+font-size: 15px;
+}
+.main .containeer ul li:first-child:before{
+    content: none;
+}
+
+.main .containeer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.main .containeer ul li a:hover{
+    color: red;
+}
+.main .containeer .last-head{
+    position: relative;
+    top: 300px;
+}
+
+.main .containeer .last-head >span {
+    font-size: 20px;
+    color:rgb(255, 166, 0);
+    border: 1px solid rgb(255, 166, 0);
+    border-radius: 50% 50%;
+    padding: 3px;
+}
+.main .containeer .last-head p{
+    float:right;
+}
+.main .containeer .last-head p a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.main .containeer .last-head p  span {
+    color: rgb(255, 166, 0);
+    font-size: 20px;
+}
+.main .containeer .last-head p a:hover{
+    color:red;
+}
+/* start service*/
+.service{
+    background-color: #202020;
+    width: auto;
+    height: 800x;
+}
+.service >p{
+    text-align: center;
+    color: #ffa600;
+    font-size: 100px;
+}
+.service .containeer {
+  overflow: hidden;
+}
+.service .containeer span{
+    color: rgb(255, 166, 0);
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+.service .containeer p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    overflow: hidden;
+}
+.service .containeer section{
+    float: left;
+    margin: 70px;
+    color: white;
+}
+.service .containeer section p{
+    float: left;
+}
+.service .containeer section p a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+    .service .containeer section p a:hover{
+        color: red;
+    }
+/* starting branding*/
+.branding {
+    width: auto;
+    height: 700px;
+    background-color: #181818;
+}
+.branding .containeer section{
+    width: 700px;
+    height: 400px;
+    background-color: #919191;
+    margin: auto ;
+    position: relative;
+    top: 150px;
+}
+.branding .containeer >p{
+    position: relative;
+    bottom: 150px;
+}
+.branding .containeer section p:first-child{
+    font-size: 70px;
+    color: rgb(255, 166, 0);
+    margin-bottom: 10px;
+
+}
+.branding .containeer section :nth-child(2){
+    color: rgb(255, 166, 0);
+    text-transform: uppercase;
+
+}
+.branding .containeer section :nth-child(3){
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.branding .containeer section p{
+    margin-left: -185px ;
+}
+.branding .containeer .slids {
+    float: right;
+    margin-right: 80px;
+}
+.branding .containeer .slids p{
+    text-transform: uppercase;
+}
+.branding .containeer .slids :nth-child(1){
+    margin-bottom: 10px;
+}
+.branding .containeer .slids :nth-child(1) span{
+    color: rgb(255, 166, 0);
+}
+.branding .containeer .slids :nth-child(2) span{
+color: rgb(255, 166, 0);
+}
+
+.branding .containeer .slids :nth-child(3){
+    color: rgb(255, 166, 0);
+    font-size: 90px;
+
+}
+.branding .containeer .swap {
+    position: relative;
+    top: 140px;
+    left: 450px;
+    font-size: 100px;
+
+}
+.branding .containeer .swap :nth-child(3) {
+    color: rgb(255, 166, 0);
+}
+/* starting testimonial*/ 
+.testimonial {
+    width: auto;
+    height: 700px;
+    background-color:#202020;
+}
+.testimonial .containeer .top{
+    text-align: center;
+    
+}
+.testimonial .containeer .top  :nth-child(1){
+    color: rgb(255, 166, 0);
+    font-size: 70px;
+}
+.testimonial .containeer .top :nth-child(2){
+    color: rgb(255, 166, 0);
+    text-transform: uppercase;
+}
+.testimonial .containeer .top h1{
+    text-transform: capitalize;
+}
+.testimonial .containeer .top img{
+    margin: 20px;
+}
+.testimonial .containeer .down {
+    width: 600px;
+    height: 300px;
+    background-color: #171717;
+    position: relative;
+    left: 300px;
+    top: 30px;
+    text-align: center;
+}
+
+.testimonial .containeer .down p{
+    width: 60px;
+    height: 30px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 260px;
+
+}
+.testimonial .containeer .down div{
+    font-size: 19px;
+    margin-top: 20px;
+
+}
+.testimonial .containeer .down .end{
+    margin-top: 50px;
+}
+.testimonial .containeer .down .end :nth-child(2){
+    color: rgb(255, 166, 0);
+    text-transform: uppercase;
+    position: relative;
+    bottom: 10px;
+    left: 130px;
+    
+}
+.testimonial .containeer .down .end .a ,.b{
+    width: 150px;
+    margin-left: 50px;
+}
+.testimonial .containeer .down .end .b{
+    float: right;
+    margin-right: 50px;
+}
+.testimonial .containeer .down .end span{
+    margin: 60px;
+}
+.testimonial .containeer .final {
+    position: relative;
+    font-size: 100px;
+    left: 458px;
+}
+.testimonial .containeer .final :nth-child(3){
+    color: rgb(255, 166, 0);
+}
+/* starting team */
+.team {
+    height: 800px;
+    background-color: #181818;
+}
+.team .containeer .upper{
+    text-align: center;
+}
+.team .containeer .upper p{
+    color: rgb(255, 166, 0);
+    font-size: 100px;
+}
+.team .containeer .upper h1{
+    text-transform: capitalize;
+}
+.team .containeer .lower .first{
+    position: relative;
+    left: 60px;
+}
+.team .containeer .lower .high {
+    width: 200px;
+    height: 500px;
+    font-size: small;
+
+}
+.team .containeer .lower .first .high #id{
+    width: 50px;
+    height: 50px;
+    border-top: 1px solid rgb(255, 166, 0);
+    border-left: 1px solid rgb(255, 166, 0);
+    
+    
+}
+.team .containeer .lower .first .high #id p{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.team .containeer .lower .first .high #p {
+    float: right;
+}
+.team .containeer .lower .first div {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 30px;
+    text-align: center;
+}
+.team .containeer .lower .first #right div :nth-child(1) {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left:60px ;
+    margin-bottom: 30px;
+}
+.team .containeer .lower .first #right div :nth-child(2) {
+    color:rgb(255, 166, 0);
+    margin: 20px;
+}
+.team .containeer .lower .first #right :nth-child(3) {
+    border-right: none;
+}
+.team .containeer .lower .first .down div {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 30px;
+    text-align: center;
+}
+.team .containeer .lower .first .down div :nth-child(1) {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left:60px ;
+    margin-bottom: 30px;
+}
+.team .containeer .lower .first .down div :nth-child(2) {
+    color:rgb(255, 166, 0);
+    margin: 20px;
+}
+.team .containeer .lower .first .down :nth-child(4) {
+    border-right: none;
+}
+/* starting footer*/
+footer{
+    background-color: #343434;
+    height: 900px;
+    width: auto;
+}
+.contain{
+    width: 600px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.up p {
+    color: rgb(255, 166, 0);
+    text-transform: capitalize;
+}
+.up :nth-child(1){
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.up h1{
+    text-transform: capitalize;
+}
+
+form{
+    background-color: #181818;
+    height: 400px;
+    width: auto;
+    border: 1px solid rgb(255, 166, 0);
+    text-align: left;
+}
+
+form label {
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+
+form label:hover{
+    color: rgb(255, 166, 0);
+}
+form input {
+    border-top:none ;
+    border-right:none ;
+    border-left:none ;
+    margin: 10px;
+    background-color: #181818;
+}
+form input:hover{
+    border-bottom: 2px solid rgb(255, 166, 0);
+}
+form p{
+    float: left;
+    margin-right: 50px; ;
+    position: relative;
+    top:80px;
+    left: 40px;
+}
+form p #message{
+    width: 500px;
+}
+form div button{
+    background-color: rgb(255, 166, 0);
+    border: none;
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 210px;
+    top:100px;
+    clear:both;
+}
+
+footer .containeer .contain .footer{
+    position: relative;
+    top: 200px;
+    left: 30px;
+}
+footer .containeer .contain .footer div{
+    widows: 135px;
+    height: 100px;
+    float: left;
+    margin-right:10px;
+    
+}
+footer .containeer .contain .footer div h1{
+    font-size: 15px;
+    text-transform: uppercase ;
+}
+footer .containeer .contain .footer div span{
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
